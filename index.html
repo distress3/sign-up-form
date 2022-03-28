@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +9,43 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="greenery">
-            <div class="logo-wrapper"></div>
+            <img src="./halie-west-25xggax4bSA-unsplash.jpg" alt="Picture of foliage">
+            <div class="logo-wrapper">
+                <img src="./odin-lined.png" alt="Odin Logo">
+                <p>ODIN</p>
+            </div>
         </div>
         <div class="right-part">
-            <p>This is not a real online service!
-                You know you need something like this in your life
-                to help you realize your deepest dreams. <br>
-                Sign up <em>now</em> to get started.
-            </p>
-            <p>
-                You <em>know</em> you want to.
-            </p>
+            <div class="p-wrapper">
+                <p class="bold">This is not a real online service!
+                    You know you need something like this in your life
+                    to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p class="bold">
+                    You <em>know</em> you want to.
+                </p>
+            </div>
             <div class="input-card">
                 <p>Let's do this!</p>
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
+                <input type="text" id="first-name">
+                <input type="text" id="last-name">
+                <input type="email" id="email">
+                <input type="tel" id="phone">
+                <input type="password" id="pwd">
+                <input type="password" id="confirm-pwd">
+            </div>
+            <div class="btn-wrapper">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="http://#">Log in</a></p>
             </div>
         </div>
     </div>
 
 </body>
+
 </html>
